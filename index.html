@@ -12,7 +12,7 @@
 <nav>
     <ul>
         <li>
-            <a href="/">
+            <a onclick="route(event,'/')">
                 خانه
             </a>
         </li>
@@ -22,7 +22,7 @@
             </a>
         </li>
         <li>
-            <a href="/about">
+            <a onclick="route(event,'/about')">
                 درباره
             </a>
 
@@ -32,20 +32,13 @@
 </nav>
 
 <div id="main">
-    <div id="searchBox">
-        <h2>
-            کامندی که میخوای رو بنویس
-        </h2>
-        <input type="text" id="searchInput" placeholder="eg: mkdir,ls etc." name="searchInput">
-<!--        <div id="searchSuggestions">-->
-<!--            <ul></ul>--> TODO : Make suggestions later
-<!--        </div>-->
-    </div>
+
 
 
 </div>
 
-<script type="module" src="https://md-block.verou.me/md-block.js"></script>
+<script type="module" src="assets/js/md-block.js"></script>
 <script src="assets/js/prism.js"></script>
+<script src="assets/js/router.js"></script>
 </body>
 </html>
