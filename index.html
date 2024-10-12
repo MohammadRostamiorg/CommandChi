@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/prism.css">
-    <link rel="shortcut icon" href="assets/icons/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/icons/icon.png" type="image/x-icon">
     <title>CommandChi - کامند چی</title>
 </head>
 <body>
 <nav>
     <ul>
         <li>
-            <a onclick="route(event,'/')">
+            <a href="/" data-nav>
                 خانه
             </a>
         </li>
@@ -22,7 +20,7 @@
             </a>
         </li>
         <li>
-            <a onclick="route(event,'/about')">
+            <a href="./about" data-nav>
                 درباره
             </a>
 
@@ -34,11 +32,7 @@
 <div id="main">
 
 
-
 </div>
-
-<script type="module" src="assets/js/md-block.js"></script>
-<script src="assets/js/prism.js"></script>
-<script src="assets/js/router.js"></script>
+<script type="module" src="/main.js"></script>
 </body>
 </html>
